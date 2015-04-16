@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/alexdo/node-js-getting-started',
+6 verbose install   [ 'cool-ascii-faces', 'express' ] ]
+7 info preinstall node-js-getting-started@0.1.3
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'cool-ascii-faces@~1.3x', null ]
+10 verbose cache add name=undefined spec="cool-ascii-faces@~1.3x" args=["cool-ascii-faces@~1.3x",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'cool-ascii-faces@~1.3x',
+11 verbose parsed url   path: 'cool-ascii-faces@~1.3x',
+11 verbose parsed url   href: 'cool-ascii-faces@~1.3x' }
+12 verbose already installed skipping express@~4.9.x /home/alexdo/node-js-getting-started
+13 verbose cache add name="cool-ascii-faces" spec="~1.3x" args=["cool-ascii-faces","~1.3x"]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '~1.3x',
+14 verbose parsed url   path: '~1.3x',
+14 verbose parsed url   href: '~1.3x' }
+15 verbose addNamed [ 'cool-ascii-faces', '~1.3x' ]
+16 verbose addNamed [ null, null ]
+17 silly lockFile 3e4de3ec-cool-ascii-faces-1-3x cool-ascii-faces@~1.3x
+18 verbose lock cool-ascii-faces@~1.3x /home/alexdo/.npm/3e4de3ec-cool-ascii-faces-1-3x.lock
+19 info addNameTag [ 'cool-ascii-faces', '~1.3x' ]
+20 verbose request where is /cool-ascii-faces
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 1cdb192b58475dc3
+23 verbose url raw /cool-ascii-faces
+24 verbose url resolving [ 'https://registry.npmjs.org/', './cool-ascii-faces' ]
+25 verbose url resolved https://registry.npmjs.org/cool-ascii-faces
+26 verbose request where is https://registry.npmjs.org/cool-ascii-faces
+27 info trying registry request attempt 1 at 22:36:52
+28 http GET https://registry.npmjs.org/cool-ascii-faces
+29 http 200 https://registry.npmjs.org/cool-ascii-faces
+30 silly registry.get cb [ 200,
+30 silly registry.get   { date: 'Thu, 16 Apr 2015 05:36:52 GMT',
+30 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     etag: '"4UDT6PJI49YWBDKUBKBP4ZO5A"',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=60',
+30 silly registry.get     'content-length': '11491',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     'x-served-by': 'cache-sjc3133-SJC',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1429162612.811992,VS0,VE41',
+30 silly registry.get     vary: 'Accept',
+30 silly registry.get     'keep-alive': 'timeout=10, max=50',
+30 silly registry.get     connection: 'Keep-Alive' } ]
+31 silly lockFile 3e4de3ec-cool-ascii-faces-1-3x cool-ascii-faces@~1.3x
+32 silly lockFile 3e4de3ec-cool-ascii-faces-1-3x cool-ascii-faces@~1.3x
+33 error notarget No compatible version found: cool-ascii-faces@'~1.3x'
+33 error notarget Valid install targets:
+33 error notarget ["0.0.1","1.0.0","1.1.0","1.2.0","1.3.0","1.3.1","1.3.2","1.3.3"]
+33 error notarget
+33 error notarget This is most likely not a problem with npm itself.
+33 error notarget In most cases you or one of your dependencies are requesting
+33 error notarget a package version that doesn't exist.
+34 error System Linux 3.16.0-30-generic
+35 error command "/usr/bin/node" "/usr/bin/npm" "install"
+36 error cwd /home/alexdo/node-js-getting-started
+37 error node -v v0.10.38
+38 error npm -v 1.4.28
+39 error code ETARGET
+40 verbose exit [ 1, true ]
